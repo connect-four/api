@@ -1,0 +1,15 @@
+{
+  "name": "connect-four-api",
+  "version": "0.0.0",
+  "description": "...",
+  "main": "server.js",
+  "author": "Thiago Kroger",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "express-cors": "*",
+    "express-load": "*",
+    "method-override": "~1.0.0",
+    "q": "^1.1.2"
+  }
+}
