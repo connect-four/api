@@ -9,5 +9,10 @@ module.exports = {
         file.push(req.body);
         common.saveFile("game", JSON.stringify(file));
         res.send(200);
+    },
+    clear: function (req, res) {
+        var file = [];
+        common.saveFile("game", JSON.stringify(file));
+        res.send(200);
     }
 };
